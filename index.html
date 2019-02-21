@@ -25,16 +25,18 @@ background-color:#222222;
 
 #titletext {
 position:absolute;
-padding:2%;
-width:90%;
-height:60%;
-top:11%;
-left:3%;
+width:13%;
+height:4%;
+top:22%;
+left:34%;
 color:#ffffff;
-font-size:170%;
+font-size:2.7vh;
 font-family: Gugi;
 text-align:center;
 background-color:#333333;
+text-transform:uppercase;
+letter-spacing:10px;
+line-height:1.5;
 }
 
 #tabbox {
@@ -57,29 +59,12 @@ border-radius:100%;
 
 #box2 {
 position:absolute;
-width:90%;
-height:90%;
-top:5%;
-left:5%;
+width:18%;
+height:36%;
+top:32%;
+left:18%;
 border-radius:100%;
 background-color:#333333;
-background-image: url('https://i.imgur.com/QdUa4Vw.png') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:cover;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
-}
-
-#box2:hover {
-background-image: url('https://i.imgur.com/OKokgK8.jpg') !important; 
-background-repeat:no-repeat !important; 
-background-position:center !important; 
-background-size:cover;
--webkit-transition: all 0.8s ease-out;
--moz-transition: all 0.8s ease-out;
-transition: all 0.8s ease-out;
 }
 
 #box3 {
@@ -95,14 +80,14 @@ background-color:#222222;
 position:absolute;
 overflow:auto;
 padding:2%;
-width:90%;
-height:90%;
-top:3%;
-left:3%;
+width:24%;
+height:47.5%;
+left:50%;
+top:22%;
 background-color:#333333;
 font-family: Cute Font;
 color:#ffffff;
-font-size:95%;
+font-size:2vh;
 }
 
 .tabs{
@@ -115,8 +100,9 @@ text-align:right;
 background-color:#222222;
 color: #ffffff;
 font-family: Cute Font;
-font-size:115%;
+font-size:2.5vh;
 letter-spacing: 3px;
+line-height:1;
 -webkit-transition: all 0.8s ease-out;
 -moz-transition: all 0.8s ease-out;
 transition: all 0.8s ease-out;
@@ -130,7 +116,7 @@ background-color:#333333;
 transition: all 0.8s ease-out;
 }
 
-#tab1,#tab2,#tab3,#tab4,#tab5,#tab6 {
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12 {
 display: none;
 }
 
@@ -140,7 +126,6 @@ color:#555555;
 
 i {
 color:#999999;
-font-size:100%;
 }
 
 h1 {
@@ -148,11 +133,11 @@ background-color:#444444;
 color: #ffffff;
 font-family: Gugi;
 text-align:center;
-font-size: 150%;
+font-size:2vh;
 }
 
 b {
-font-size: 60%;
+font-size:1vh;
 text-transform: uppercase;
 color:#999999;
 font-family: Gugi;
@@ -163,30 +148,34 @@ font-family: Gugi;
 <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
 <link href="https://fonts.googleapis.com/css?family=Cute+Font|Gugi" rel="stylesheet">
 <script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('box2').innerHTML=document.getElementById(id).innerHTML}</script>
 
 <div id="titlebox">
+</div>
 <div id="titletext">
 Gray
 </div>
-</div>
 
 <div id="tabbox">
-<span class="tabs" onClick="changeNavigation ('tab1')">Racials</span>
-<span class="tabs" onClick="changeNavigation ('tab2')">Abilities</span>
-<span class="tabs" onClick="changeNavigation ('tab3')">Inventory</span>
-<span class="tabs" onClick="changeNavigation ('tab4')">Lore</span>
-<span class="tabs" onClick="changeNavigation ('tab5')">History</span>
-<span class="tabs" onClick="changeNavigation ('tab6')">Relations</span>
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab7')">Details</span>
+<span class="tabs" onClick="changeNavigation ('tab2');changeNavigation1 ('tab8')">Racials</span>
+<span class="tabs" onClick="changeNavigation ('tab3');changeNavigation1 ('tab9')">Abilities</span>
+<span class="tabs" onClick="changeNavigation ('tab4');changeNavigation1 ('tab10')">Inventory</span>
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab11')">Lore</span>
+<span class="tabs" onClick="changeNavigation ('tab6');changeNavigation1 ('tab12')">History</span>
 </div>
 
 <div id="box1">
-<div id="box2">
 </div>
+<div id="box2">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/x9J5CrW.png"/>
 </div>
 
 <div id="box3">
+</div>
 <div id="content">
 <h1>Basic Information</h1>
+<img align="right" style="width:37%;" src="https://i.imgur.com/WFqMgJt.png"/>
 <b>Name:</b> Isa<br>
 <b>True Age:</b> Unknown<br>
 <b>Physical Age:</b> Late Twenties<br>
@@ -207,13 +196,39 @@ Gray
 <b>Personality</b><br>
 Isa is most certainly a hard woman to read. When she is not in danger, her demeanor is very child-like to the extreme. Many question her mental development and find themselves wondering if she is "slow" or "special needs." However, when extreme pressure is applied, especially when breaking under it or messing up would lead to her own death, Isa becomes a very cold and calculating individual. Something seems to snap behind her dull eyes, igniting a fierce cleverness often hidden or at least turned off for most of her down time.
 </div>
-</div>
 
 <div id="tab1">
+<h1>Basic Information</h1>
+<img align="right" style="width:37%;" src="https://i.imgur.com/WFqMgJt.png"/>
+<b>Name:</b> Isa<br>
+<b>True Age:</b> Unknown<br>
+<b>Physical Age:</b> Late Twenties<br>
+<b>Birthdate:</b> Unknown<br>
+<b>Gender:</b> Female<br>
+<b>Sexuality:</b> Demisexual<br>
+<b>Species:</b> Anomaly<br>
+<b>Race:</b> Gray<br>
+<b>Height:</b> 6'0"<br>
+<b>Weight:</b> 140 lbs.
+<br><br>
+<h1>Detailed Information</h1>
+<b>Appearance</b><br>
+<i>Physique/Build</i>: She's tall for the average humanoid female, but not to an extreme. Despite her height she's very thin and lithe, retaining a shapely hourglass figure without having too much in the chest or rear to weigh her down. Hard muscle underlies her pale flesh and is even a little visible in most cases giving her the look of an athlete trained for agility and and endurance.
+<br>
+<i>Hair/Facial</i>: Silver hair, the length and style of which varies frequently, most often finds itself tied back for the sake of being kept out of her way. Bangs and stubborn strands still find themselves framing her soft features. Isa has a strong angular jaw, but it is softened by her rounded cheeks, giving her head more of an upside-down teardrop shape. For those that can stand to be in her presence the finer details of her facial structure are found to be quite pretty and fulfilling, as a cute button nose sits at its very center, accented by a pair of full rosy pink lips and big wonder-filled liquid silver eyes. Even her lashes and slender brows are colored the same chromatic hue shared by her irises and hair. 
+<br><br>
+<b>Personality</b><br>
+Isa is most certainly a hard woman to read. When she is not in danger, her demeanor is very child-like to the extreme. Many question her mental development and find themselves wondering if she is "slow" or "special needs." However, when extreme pressure is applied, especially when breaking under it or messing up would lead to her own death, Isa becomes a very cold and calculating individual. Something seems to snap behind her dull eyes, igniting a fierce cleverness often hidden or at least turned off for most of her down time.
+</div>
+<div id="tab7">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/x9J5CrW.png"/>
+</div>
+
+<div id="tab2">
 <h1>Passive Abilities of the Gray</h1>
-<p align="center"><img style="height:45%;" src="https://i.imgur.com/64NNcD8.jpg"/> <img style="height:45%;" src="https://i.imgur.com/ovOb2Vc.jpg"/></p>
+<img style="width:100%;" src="https://i.imgur.com/9bQp1AO.jpg"/><br><br>
 <b>Biological Process</b><br>
-The anomaly of her physical existence ages much like the common mortal man, until reaching maturity. Once her body and mind have accomplished their peak development, instead of deteriorating she simply stops growing or aging altogether. Isa is still as vulnerable as most mortals, capable from dying to any natural cause save for old age.
+The anomaly of her physical existence ages much like the common mortal man, until reaching maturity. Once her body and mind have accomplished their peak development, instead of deteriorating she simply stops growing or aging altogether. Isa is still as vulnerable as most mortals, capable of dying to any natural cause save for old age.
 <br><br>
 <b>Muscle Mass</b><br>
 Her muscles provide twice the durability and strength of the average human’s, but for half as much mass and weight. If she were thin and average in weight, at her base and in an untrained state, her strength would still surpass others of her build. Isa’s body is trained, however, her muscles especially. Not to the extreme, but enough to make a marginal difference and rival even professional weightlifters and bodybuilders.
@@ -229,15 +244,47 @@ Isa is built for survival, allowing her to change in ways that can be argued as 
 <br><br>
 <b>Glitched Existence</b><br>
 Being a sentient piece of such perfect balance, a literal embodiment of a moral grey area some may say, allows her to fade easily into the background of her surroundings so to speak. No, she does not camouflage, it is just easier for the untrained eye to slip past her as though she were never there to begin with. That being said, anyone who is not used to her presence (or anyone who finds her in the process of adapting before having fit herself into their native environment) and actually pays her mind will be met with malicious headaches and nausea. Her entire existence feels very wrong to natural instincts, as though she is some kind of abomination, and adverse effects vary greatly depending on one’s exposure to the otherworldly. Those with none whatsoever could even be triggered into seizing at first, since her presence comes off as so intruding and almost destructive without any actual intent to harm.
+<br><br>
+<i>Important Note:</i> Mind altering passives are intended just for mundane humans, and those without protection against such disadvantages. Anything just as "alien" to the plain world as she is, or anyone capable of utilizing unnatural or foreign energies, are just intended to feel slightly offput by her presence to a degree that only has merit for aesthetic and not necessarily a debuff to concentration or thought capacity. (It's intended mostly for possible NPCs and the like, as a challenge for interacting with the world, but can have an effect on PCs when appropriate.)
 </div>
-
-<div id="tab2">
-<h1>Active Abilities of the Gray</h1>
-<p align="center"><img style="height:45%;" src="https://i.imgur.com/b7K1gCi.png"/></p>
-WIP
+<div id="tab8">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/cEXwk3R.png"/>
 </div>
 
 <div id="tab3">
+<h1>Active Abilities of the Gray</h1>
+<b>Gray Energy</b><br>
+The source of Isa’s power; as mana and magic are to a mage this unique alien energy is to a Gray. Its appearance isn’t very grand or extravagant by any means. When small amounts are in active use around her person it simply causes high distortion in the air, akin to distant displacement of air over searing hot pavement under direct sunlight. Make no mistake, this distortion is not thanks to excess heat, in fact it doesn’t necessarily have a temperature of its own, only adopts what it’s touching. Should large amounts be in use then it will darken to a grey smog, thick enough to disrupt visual sensory to the naked (unenhanced) eye.
+<br>
+When not in use with an actual ability, and just being manipulated in its raw form, Gray Energy has no malicious effects. The strange substance does have a metaphysical connection to Isa’s mind, however, to the extent that it can feel detectable existing things moving through it.This is specifically in reference to objects or individuals with either some legitimate tangible mass, or, some state of detectable powersource/energy even if it is ethereal. Even so the capacity of "feeling" mentioned is limited to presence/physical contact and general size. Specific details that would have to be distinguished by any other sense aside from "feeling" cannot be determined by contact with the energy in its base unaltered raw form. Despite all this it can still be manipulated and shaped as she pleases around herself.
+<br>
+Abilities cost Gray Energy and the supply is limited because--like a body’s natural energy--it requires replenishment. Extreme overuse will severely exhaust Isa, no matter what she will be eventually forced to stop and rest usage before completely giving out.
+<br><br>
+<b>Diagnose</b><br>
+Activated only through Intent (meaning some forethought has to actually be put into using this ability, it can’t just automatically apply) but useful nonetheless. Diagnose is what Isa utilizes to study foreign powers, energies, and entities. If she can make contact between Gray Energy and the source or very substance of what she wishes to study, then her mind can document enough about it--down to its very molecular structure--in order to mimic its effects. Utilizing this ability on individuals or entities only allows her to learn evolutionary traits required to survive in their "home atmosphere" and adjust her body accordingly when present in those environments.
+<br>
+<i>Example:</i> Isa uses Diagnose on a trout and learns that she needs gills to take in oxygen underwater. Doing this would allow her body to develop gills the next time her face is submerged. Had that trout been … say … a Pyromancer instead, then making contact between Diagnose and the flames would allow her to learn enough about that power to know if she wants to mimic its effects her Gray Energy must generate enough heat to severely burn whatever’s around it.
+<br><br>
+<b>Advocate</b><br>
+This is the Intent activated ability that allows its caster to mimic the effects of the most recent Diagnosis. It allows Gray Energy to evolve the effects it needs to in order to have the same influence on the environment as whatever power or energy it made contact with directly for a successful application of Diagnose. Once Gray Energy evolves to meet its newfound standards it cannot be used for Diagnose and therefore cannot take on even newer traits. Gray Energy must be first reverted to its natural form before it can engage different traits or a "new mode."
+<br>
+<i>Example:</i> Advocate lets Isa use that Diagnosis of the Pyromancer’s flames to give Gray Energy a superheated burning effect. If she sends it at him in the form of a projectile, and comes in contact with a Cryomancer’s energy while doing so, she cannot just change burning to freezing. She’d have to stop using the burning effect and bring her energy back into its base state before she could adopt the freezing effect.
+<br><br>
+<b>Procreate</b><br>
+It is possible for her to gather different types or effects of varying energies for use at once, but this requires legitimate preparation. To perform such a task Isa must mimic one source at a time, form something with the converted Gray Energy, then isolate that formation and revert the rest back to its base form, rinse, repeat. Given the amount of work required through this very specific process it’s likely to take some time (multiple rotations in combat scenarios, implied time in storyline). 
+<br>
+<i>Example:</i> What Isa could do to mimic both the Pyromancer’s burning and the Cryomancer’s freezing at once is start with the fire, Advocate her Gray Energy to burn, form a couple of stationary fireballs with it, then revert her natural energy back to its passive state. After that she’d have to make a successful Diagnosis with her reverted Gray Energy, whilst still holding onto the pseudo “fireballs,” of the ice based energy. After Advocating that she’d technically have both types at her disposal. 
+<br><br>
+<b>Allocate</b><br>
+Knowledge gained from Diagnose can be passed on to other individuals who are capable of receiving information broken down by Isa. If her presence is too violently/negatively foreign to them she can’t exactly pass on thoughts and Intent through her energy to them, but those who can comprehend or function properly in her presence are open gain. Allocate provides Isa with a means of basic communication. She can’t project thoughts or feelings in this method, but she can allow others to learn what she has through Diagnose. To do so they are only required to make physical contact with Gray Energy while Allocate is the active ability.
+<br>
+<i>Example:</i> Isa’s mate, Gaz O’Dama, has a specific connection to her through his unique Racial Abilities. Should she Diagnose the Pyromancer’s flame, then use Allocate on him, he would learn just as much as she did from Diagnose (that the flames generate heat to burn, etc).
+</div>
+<div id="tab9">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/0WWA3Qs.png"/>
+</div>
+
+<div id="tab4">
 <h1>Tools for an Anomaly</h1>
 <p align="center"><img style="height:45%;" src="https://i.imgur.com/Xsz2ZOp.png"/></p>
 <b>The Bone Sword</b><br>
@@ -253,8 +300,11 @@ Every individual O’Dama (the kind of creature her mate is) couple decides for 
 <br>
 The piece of jewelry seems like a plain silver band from a distance, but close inspection reveals intricate carvings and small diamonds placed inside some of the engraved grooves for artistic flare.
 </div>
+<div id="tab10">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/UPiIJ5G.jpg"/>
+</div>
 
-<div id="tab4">
+<div id="tab5">
 <h1>The Gray Legacy</h1>
 The legends regarding the creation of the Grays have elements that vary depending on the culture it originates from. Some say the first was begotten by an angel and a demon, others claim it was a pair of gods from completely separate religions and realities. Yet across the board all agree it was an equal force of light and darkness, or lawful good and lawful evil, that conceived such a being. All of the very particular conditions were miraculously met, and from them the very first Gray was born.
 <br><br>
@@ -262,8 +312,11 @@ This particular Abomination made her home mostly in the Between, the space betwe
 <br><br>
 Eventually her sire wanted her to reproduce and create an army of little servants, intending to use their worship as a means to ascend further in power, but every single attempt ended in miscarriages and infants who lasted two days outside of the womb at the most. It became obvious that another of her own kind would be needed to make a child successfully. There were no other Grays to speak of, she was the first and only one, so he hired a group of progressive individuals to experiment cloning in any method they could manage. Eventually a male counterpart was created from her own genes. By working together they managed to escape their prison. Most assume that is the end of their story, that they died off somewhere out there and have grown extinct.
 </div>
+<div id="tab11">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/GAPwGVr.png"/>
+</div>
 
-<div id="tab5">
+<div id="tab6">
 <h1>How Isa Came To Be</h1>
 It was easy for the original two creatures to hide in the Between, they survived there for some time, only sneaking back into the defined realities when absolutely necessary. The pair thrived and eventually did as they were designed, and the first gave birth to a daughter of her own.
 <br><br>
@@ -273,62 +326,8 @@ The older she got, the more they allowed her to venture out of the Between with 
 <br><br>
 During another journey across the realms, thanks to her nomadic lifestyle keeping her constantly on the move, she happened across a world where magic was the most common and powerful form of energy. There she met a young being with minor canine traits whose race of birth specialized in the magic of illusion and trickery. His existence fascinated each other, and their friendship consisted mostly of her following him around and observing his life with earnest. The two came to love each other, and after some time Isa finally settled down permanently at his side as his eternal mate. She remains a member of his family to this day, using her abilities for her new relatives when necessary, and enjoying the occasional adventure or two.
 </div>
-
-<div id="tab6">
-<h1>Eternal Mate</h1>
-Isa's travels have led her far and wide across the multiverse, and throughout all the different beings she'd ever met only one had managed to hold her heart permanently. His world and way of life were completely foreign to her, but she gladly settled down and grew to know his ways. The perfect caretaker and etneral mate for her was hidden within the realms of magic all along! Who knew, right?
-<br><br>
-<li>The Mate</li>
-<b>Name:</b> <a target="_blank" href="http://tri.chatango.com">Gaz O'Dama</a><br>
-<b>Gender:</b> Male<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Aeromancy
-<br><br>
-<h1>The O'Dama Family</h1>
-Gaz, or III as he was more commonly known, was the member of a very particular family of magical creatures known as the "O'Damas." They have their own ways of life and an entire culture of their very own! Each member--save for the mate himself--is listed below. (<i>Hint</i>: If it's underlined and a different shade of grey, it's probably click-able.)
-<br><br>
-<li>The Monarch</li>
-<b>Name:</b> <a target="_blank" href="http://celtic.chatango.com">Lord I</a><br>
-<b>Gender:</b> Ambiguous<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Deception & Faith
-<br><br>
-<li>The Firstborn</li>
-<b>Name:</b> <a target="_blank" href="http://ii.chatango.com">Cinnia O'Dama</a><br>
-<b>Gender:</b> Female<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Light Radiance
-<br><br>
-<li>Number IV</li>
-<b>Name:</b> <a target="_blank" href="http://ka.chatango.com">Ka O'Dama</a><br>
-<b>Gender:</b> Female<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Psionics & Deception
-<br><br>
-<li>Number V</li>
-<b>Name:</b> <a target="_blank" href="http://deception.chatango.com">Lucid O'Dama</a><br>
-<b>Gender:</b> Male<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Deception
-<br><br>
-<li>Number VI</li>
-<b>Name:</b> <a target="_blank" href="http://lighten.chatango.com">Flare O'Dama</a><br>
-<b>Gender:</b> Female<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Enchantment
-<br><br>
-<li>Number VII</li>
-<b>Name:</b> <a target="_blank" href="http://chimera.chatango.com">Lupa O'Dama</a><br>
-<b>Gender:</b> Female<br>
-<b>Species:</b> Tree Guardian<br>
-<b>Race:</b> O'Dama<br>
-<b>Primary Tree:</b> Druidism
+<div id="tab12">
+<img style="width:100%;height:100%;border-radius:100%;" src="https://i.imgur.com/2MxFIqg.png"/>
 </div>
 
 <embed style="height: 0%; width: 0%;"src="Isa.mp3" autostart="true" loop="true">
